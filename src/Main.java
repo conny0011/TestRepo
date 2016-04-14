@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Student student = new Student("Kalle");
-		System.out.println("Name: " + student.getName());
+		System.err.println("Name: " + student.getName());
 	}
 
 }
